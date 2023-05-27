@@ -153,7 +153,7 @@ export default function Example() {
                 />
               </div>
             </div>
-            <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
+            {/* <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
               <div className="flex h-6 items-center">
                 <Switch
                   checked={agreed}
@@ -180,7 +180,7 @@ export default function Example() {
                 </a>
                 .
               </Switch.Label>
-            </Switch.Group>
+            </Switch.Group> */}
           </div>
           <div className="mt-10">
             <button
