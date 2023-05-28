@@ -45,7 +45,9 @@ export default function WhatWeOffer() {
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
-                    <AlertDialogAction>Find out more...</AlertDialogAction>
+                    <AlertDialogAction>
+                      <a href="/growmuscle">Find out more.</a>
+                    </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
               </AlertDialog>
@@ -77,7 +79,7 @@ export default function WhatWeOffer() {
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/musclegain">Test</a>
+                      <a href="/buildendurance">Test</a>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>

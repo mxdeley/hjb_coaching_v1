@@ -4,10 +4,10 @@ import { BsFacebook } from "react-icons/bs";
 
 export default function Header() {
   return (
-    <header>
+    <header className="fixed top-0 z-50 w-full border-b">
       <nav className="px-4 lg:px-6 py-2.5 bg-gray-800">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-6xl">
-          <a href="/" className="flex items-center">
+          <a href="/" className="flex items-center p-3">
             <Image
               src="/hjbHeader.svg"
               className="mr-3 "
@@ -16,7 +16,7 @@ export default function Header() {
               height={80}
             />
           </a>
-          <div className="flex items-center divide-x-2 font-light">
+          <div className="hidden md:flex items-center divide-x-2 font-light">
             <ul className="space-x-8 px-4">
               <a href="" className="text-white">
                 My Story
