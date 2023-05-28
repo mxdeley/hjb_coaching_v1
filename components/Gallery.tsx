@@ -1,60 +1,78 @@
+import Image from "next/image";
+
 const Gallery = () => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
       <div>
-        <img
+        <Image
           className="h-auto max-w-full rounded-lg"
           src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
           alt=""
+          width={100}
+          height={80}
         />
       </div>
       <div>
-        <img
+        <Image
           className="h-auto max-w-full rounded-lg"
           src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
           alt=""
+          width={100}
+          height={80}
         />
       </div>
       <div>
-        <img
+        <Image
           className="h-auto max-w-full rounded-lg"
           src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
           alt=""
+          width={100}
+          height={80}
         />
       </div>
       <div>
-        <img
+        <Image
           className="h-auto max-w-full rounded-lg"
           src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
           alt=""
+          width={100}
+          height={80}
         />
       </div>
       <div>
-        <img
+        <Image
           className="h-auto max-w-full rounded-lg"
           src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
           alt=""
+          width={100}
+          height={80}
         />
       </div>
       <div>
-        <img
+        <Image
           className="h-auto max-w-full rounded-lg"
           src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
           alt=""
+          width={100}
+          height={80}
         />
       </div>
       <div>
-        <img
+        <Image
           className="h-auto max-w-full rounded-lg"
           src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
           alt=""
+          width={100}
+          height={80}
         />
       </div>
       <div>
-        <img
+        <Image
           className="h-auto max-w-full rounded-lg"
           src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
           alt=""
+          width={100}
+          height={80}
         />
       </div>
       <div>
