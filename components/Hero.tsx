@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const links = [
   { name: "Open roles", href: "#" },
   { name: "Internship program", href: "#" },
@@ -14,10 +16,12 @@ const stats = [
 export default function Example() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-800 py-24 sm:py-32">
-      <img
+      <Image
         src="/personalTrainer.png"
         alt=""
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-25"
+        width={1097}
+        height={845}
       />
       <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
