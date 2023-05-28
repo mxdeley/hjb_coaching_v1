@@ -10,6 +10,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
+import Link from "next/link";
 
 export default function WhatWeOffer() {
   return (
@@ -75,7 +76,9 @@ export default function WhatWeOffer() {
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
-                    <AlertDialogAction>Find out more...</AlertDialogAction>
+                    <AlertDialogAction>
+                      <a href="/musclegain">Test</a>
+                    </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
               </AlertDialog>
