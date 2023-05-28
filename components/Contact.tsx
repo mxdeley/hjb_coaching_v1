@@ -1,7 +1,5 @@
 "use client";
 import { useState } from "react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { Switch } from "@headlessui/react";
 import Image from "next/image";
 
 function classNames(...classes: string[]) {

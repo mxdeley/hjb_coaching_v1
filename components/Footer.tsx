@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -10,10 +10,12 @@ const Footer = () => {
               href="https://flowbite.com"
               className="flex items-center justify-center md:justify-start"
             >
-              <img
+              <Image
                 src="/hjbHeader.svg"
                 className="mr-3 h-20"
                 alt="Company Logo"
+                width={100}
+                height={80}
               />
             </a>
           </div>

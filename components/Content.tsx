@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const Content = () => {
   return (
@@ -21,15 +21,19 @@ const Content = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4 mt-8">
-          <img
+          <Image
             className="w-full rounded-lg"
             src="/harrison2.jpeg"
             alt="office content 1"
+            width={500}
+            height={500}
           />
-          <img
+          <Image
             className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="harrison3.jpeg"
+            src="/harrison3.jpeg"
             alt="office content 2"
+            width={500}
+            height={500}
           />
         </div>
       </div>
