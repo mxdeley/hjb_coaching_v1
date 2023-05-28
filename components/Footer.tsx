@@ -24,14 +24,17 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="https://flowbite.com" className="hover:underline">
+                  <a
+                    href="https://flowbite.com"
+                    className="hover:underline text-sm"
+                  >
                     Training Programs
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://tailwindcss.com/"
-                    className="hover:underline"
+                    className="hover:underline text-sm"
                   >
                     Workout Tracker
                   </a>
@@ -44,14 +47,17 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="https://flowbite.com" className="hover:underline">
+                  <a
+                    href="https://flowbite.com"
+                    className="hover:underline text-sm"
+                  >
                     Cardio Exercises
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://tailwindcss.com/"
-                    className="hover:underline"
+                    className="hover:underline text-sm"
                   >
                     Hydration
                   </a>
@@ -64,14 +70,17 @@ const Footer = () => {
               </h2>
               <ul className=" text-gray-400">
                 <li className="mb-4">
-                  <a href="https://flowbite.com" className="hover:underline">
+                  <a
+                    href="https://flowbite.com"
+                    className="hover:underline text-sm"
+                  >
                     Diet Programs
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://tailwindcss.com/"
-                    className="hover:underline"
+                    className="hover:underline text-sm"
                   >
                     Calorie Tracker
                   </a>
@@ -86,7 +95,7 @@ const Footer = () => {
                 <li className="mb-4">
                   <a
                     href="https://github.com/themesberg/flowbite"
-                    className="hover:underline "
+                    className="hover:underline text-sm "
                   >
                     Recipes
                   </a>
@@ -94,7 +103,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
+                    className="hover:underline text-sm"
                   >
                     Nutrition
                   </a>
