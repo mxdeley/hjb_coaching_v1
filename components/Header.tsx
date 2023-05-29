@@ -399,8 +399,8 @@ export default function Example() {
         {/* Navigation */}
         <div className=" divide-x-2 hidden lg:flex">
           <Popover.Group className=" flex lg:gap-x-6">
-            <Popover className="relative">
-              <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white ring-transparent appearance-none">
+            <Popover className="relative appearance-none ring-0">
+              <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white ">
                 Services
                 <ChevronDownIcon
                   className="h-5 w-5 flex-none text-gray-400"
