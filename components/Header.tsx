@@ -320,7 +320,7 @@
 import { Fragment, useState } from "react";
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
-import { BsFacebook } from "react-icons/bs";
+import { BsTiktok } from "react-icons/bs";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import {
@@ -399,7 +399,7 @@ export default function Example() {
         {/* Navigation */}
         <div className=" divide-x-2 hidden lg:flex">
           <Popover.Group className=" flex lg:gap-x-6">
-            <Popover className="relative appearance-none ring-0">
+            <Popover className="relative ">
               <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white ">
                 Services
                 <ChevronDownIcon
@@ -463,25 +463,38 @@ export default function Example() {
                 </Popover.Panel>
               </Transition>
             </Popover>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            <a
+              href="/mystory"
+              className="text-sm font-semibold leading-6 text-white"
+            >
               My Story
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            <a
+              href="/successstories"
+              className="text-sm font-semibold leading-6 text-white"
+            >
               Success Stories
             </a>
             <a
-              href="#"
+              href="/blog"
               className="text-sm font-semibold leading-6 text-white mr-6"
             >
               Blog
             </a>
           </Popover.Group>
           <div className="lg:flex hidden">
-            <a href="" className="text-white px-6">
+            <a
+              href="https://www.instagram.com/hjb_fit/"
+              className="text-white px-6"
+            >
               <FaInstagram size={22} />
             </a>
-            <a href="" className="text-white">
-              <BsFacebook size={22} />
+
+            <a
+              href="https://www.tiktok.com/@harrison_bickford?lang=en"
+              className="text-white "
+            >
+              <BsTiktok size={22} />
             </a>
           </div>
         </div>
@@ -564,11 +577,17 @@ export default function Example() {
                 </a>
               </div>
               <div className="py-6 flex">
-                <a href="" className="text-gray-800">
+                <a
+                  href="https://www.instagram.com/hjb_fit/"
+                  className="text-gray-800"
+                >
                   <FaInstagram size={22} />
                 </a>
-                <a href="" className="text-gray-800 px-6">
-                  <BsFacebook size={22} />
+                <a
+                  href="https://www.tiktok.com/@harrison_bickford?lang=en"
+                  className="text-gray-800 px-6"
+                >
+                  <BsTiktok size={22} />
                 </a>
               </div>
             </div>
