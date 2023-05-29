@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import DesignedByInfinitim from "@/components/DesignedByInfinitim";
 import { Analytics } from "@vercel/analytics/react";
-import Head from "next/head";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +20,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-<script>
-    (function(h,o,t,j,a,r){
+      <Script id="hotjar">
+      (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:3511779,hjsv:6};
         a=o.getElementsByTagName('head')[0];
@@ -30,8 +29,8 @@ export default function RootLayout({
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-      </Head>
+      </Script>
+
       <body className={inter.className}>
         <Header />
         {children}
