@@ -369,7 +369,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-slate-800">
+    <header className="bg-slate-800 border-b border-white">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
         aria-label="Global"
@@ -427,7 +427,7 @@ export default function Example() {
                       >
                         <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                           <item.icon
-                            className="h-6 w-6 text-gray-600"
+                            // className="h-6 w-6 text-gray-600"
                             aria-hidden="true"
                           />
                         </div>
