@@ -68,13 +68,14 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import Muscles from "@/components/Images";
 
 const products = [
   {
-    name: "Analytics",
-    description: "Get a better understanding of your traffic",
-    href: "#",
-    icon: ChartPieIcon,
+    name: "Grow Muscle",
+    description: "Grow your muscle",
+    href: "/growmuscle",
+    icon: Muscles,
   },
   {
     name: "Engagement",
@@ -146,18 +147,9 @@ export default function Example() {
         {/* Navigation */}
         <div className=" divide-x-2 hidden lg:flex">
           <Popover.Group className=" flex lg:gap-x-6">
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Features
-            </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Marketplace
-            </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Company
-            </a>
-            <Popover className="relative mr-6">
+            <Popover className="relative">
               <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
-                Product
+                Services
                 <ChevronDownIcon
                   className="h-5 w-5 flex-none text-gray-400"
                   aria-hidden="true"
@@ -219,6 +211,18 @@ export default function Example() {
                 </Popover.Panel>
               </Transition>
             </Popover>
+            <a href="#" className="text-sm font-semibold leading-6 text-white">
+              My Story
+            </a>
+            <a href="#" className="text-sm font-semibold leading-6 text-white">
+              Success Stories
+            </a>
+            <a
+              href="#"
+              className="text-sm font-semibold leading-6 text-white mr-6"
+            >
+              Blog
+            </a>
           </Popover.Group>
           <div className="lg:flex hidden">
             <a href="" className="text-white px-6">
