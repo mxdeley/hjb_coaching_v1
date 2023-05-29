@@ -14,9 +14,9 @@ import Link from "next/link";
 
 export default function WhatWeOffer() {
   return (
-    <div className="bg-gray-800 py-16 sm:py-">
+    <div className="bg-gray-800 py-8">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="text-center text-lg font-semibold leading-8 text-white">
+        <h2 className="text-center text-xl font-semibold leading-8 text-white">
           Start your fitness journey today.
         </h2>
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-3xl sm:grid-cols-2 sm:gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-4 ">
@@ -36,23 +36,24 @@ export default function WhatWeOffer() {
                 <AlertDialogContent>
                   <AlertDialogHeader>
                     <AlertDialogTitle>
-                      So you want to grow muscle?
+                      Are you absolutely sure?
                     </AlertDialogTitle>
                     <AlertDialogDescription>
-                      Find my most efficient muscle building program here.
-                      Remember tracking your progress is key to success.
+                      This action cannot be undone. This will permanently delete
+                      your account and remove your data from our servers.
                     </AlertDialogDescription>
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/growmuscle">Find out more.</a>
+                      <a href="/growmuscle">Test</a>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
               </AlertDialog>
             </h3>
           </div>
+
           <div className="border rounded-xl p-3">
             <h3 className="text-white text-center">
               <AlertDialog>
@@ -111,7 +112,9 @@ export default function WhatWeOffer() {
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
-                    <AlertDialogAction>Find out more...</AlertDialogAction>
+                    <AlertDialogAction>
+                      <a href="/loseweight">Test</a>
+                    </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
               </AlertDialog>
@@ -128,7 +131,7 @@ export default function WhatWeOffer() {
                     width={158}
                     height={48}
                   />
-                  Eat Great
+                  <h3>Eat Great</h3>
                 </AlertDialogTrigger>
                 <AlertDialogContent>
                   <AlertDialogHeader>
@@ -142,7 +145,9 @@ export default function WhatWeOffer() {
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
-                    <AlertDialogAction>Find out more...</AlertDialogAction>
+                    <AlertDialogAction>
+                      <a href="/eatgreat">Test</a>
+                    </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
               </AlertDialog>
