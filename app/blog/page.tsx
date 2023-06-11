@@ -1,218 +1,28 @@
-// const page = () => {
-//   return (
-//     <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-gray-800 text-white">
-//       <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
-//         <article className="mx-auto w-full max-w-2xl ">
-//           <header className="mb-4 lg:mb-6 ">
-//             <address className="flex items-center mb-6 not-italic">
-//               <div className="inline-flex items-center mr-3 text-sm text-white">
-//                 <img
-//                   className="mr-4 w-16 h-16 rounded-full"
-//                   src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
-//                   alt="Jese Leos"
-//                 />
-//                 <div>
-//                   <a
-//                     href="#"
-//                     rel="author"
-//                     className="text-xl font-bold text-white"
-//                   >
-//                     Jese Leos
-//                   </a>
-//                   <p className="text-base font-light text-gray-300">
-//                     Graphic Designer, educator & CEO Flowbite
-//                   </p>
-//                   <p className="text-base font-light text-gray-300">
-//                     <time
-//                       pubdate
-//                       datetime="2022-02-08"
-//                       title="February 8th, 2022"
-//                     >
-//                       Feb. 8, 2022
-//                     </time>
-//                   </p>
-//                 </div>
-//               </div>
-//             </address>
-//             <h1 className="mb-4 text-3xl font-extrabold leading-tight  lg:mb-6 lg:text-4xl text-white">
-//               Best practices for successful prototypes
-//             </h1>
-//           </header>
-//           <p className="lead">
-//             Flowbite is an open-source library of UI components built with the
-//             utility-first classes from Tailwind CSS. It also includes
-//             interactive elements such as dropdowns, modals, datepickers.
-//           </p>
-//           <p>
-//             Before going digital, you might benefit from scribbling down some
-//             ideas in a sketchbook. This way, you can think things through before
-//             committing to an actual design project.
-//           </p>
-//           <p>
-//             But then I found a{" "}
-//             <a href="https://flowbite.com">
-//               component library based on Tailwind CSS called Flowbite
-//             </a>
-//             . It comes with the most commonly used UI components, such as
-//             buttons, navigation bars, cards, form elements, and more which are
-//             conveniently built with the utility classes from Tailwind CSS.
-//           </p>
-//           <figure>
-//             <img
-//               src="https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-1.png"
-//               alt=""
-//             />
-//             <figcaption>Digital art by Anonymous</figcaption>
-//           </figure>
-//           <h2>Getting started with Flowbite</h2>
-//           <p>
-//             First of all you need to understand how Flowbite works. This library
-//             is not another framework. Rather, it is a set of components based on
-//             Tailwind CSS that you can just copy-paste from the documentation.
-//           </p>
-//           <p>
-//             It also includes a JavaScript file that enables interactive
-//             components, such as modals, dropdowns, and datepickers which you can
-//             optionally include into your project via CDN or NPM.
-//           </p>
-//           <p>
-//             You can check out the{" "}
-//             <a href="https://flowbite.com/docs/getting-started/quickstart/">
-//               quickstart guide
-//             </a>{" "}
-//             to explore the elements by including the CDN files into your
-//             project. But if you want to build a project with Flowbite I
-//             recommend you to follow the build tools steps so that you can purge
-//             and minify the generated CSS.
-//           </p>
-//           <p>
-//             You'll also receive a lot of useful application UI, marketing UI,
-//             and e-commerce pages that can help you get started with your
-//             projects even faster. You can check out this{" "}
-//             <a href="https://flowbite.com/docs/components/tables/">
-//               comparison table
-//             </a>{" "}
-//             to better understand the differences between the open-source and pro
-//             version of Flowbite.
-//           </p>
-//           <h2>When does design come in handy?</h2>
-//           <p>
-//             While it might seem like extra work at a first glance, here are some
-//             key moments in which prototyping will come in handy:
-//           </p>
-//           <ol>
-//             <li>
-//               <strong>Usability testing</strong>. Does your user know how to
-//               exit out of screens? Can they follow your intended user journey
-//               and buy something from the site you’ve designed? By running a
-//               usability test, you’ll be able to see how users will interact with
-//               your design once it’s live;
-//             </li>
-//             <li>
-//               <strong>Involving stakeholders</strong>. Need to check if your
-//               GDPR consent boxes are displaying properly? Pass your prototype to
-//               your data protection team and they can test it for real;
-//             </li>
-//             <li>
-//               <strong>Impressing a client</strong>. Prototypes can help explain
-//               or even sell your idea by providing your client with a hands-on
-//               experience;
-//             </li>
-//             <li>
-//               <strong>Communicating your vision</strong>. By using an
-//               interactive medium to preview and test design elements, designers
-//               and developers can understand each other — and the project —
-//               better.
-//             </li>
-//           </ol>
-//           <h3>Laying the groundwork for best design</h3>
-//           <p>
-//             Before going digital, you might benefit from scribbling down some
-//             ideas in a sketchbook. This way, you can think things through before
-//             committing to an actual design project.
-//           </p>
-//           <p>
-//             Let's start by including the CSS file inside the <code>head</code>{" "}
-//             tag of your HTML.
-//           </p>
-//           <h3>Understanding typography</h3>
-//           <h4>Type properties</h4>
-//           <p>
-//             A typeface is a collection of letters. While each letter is unique,
-//             certain shapes are shared across letters. A typeface represents
-//             shared patterns across a collection of letters.
-//           </p>
-//           <h4>Baseline</h4>
-//           <p>
-//             A typeface is a collection of letters. While each letter is unique,
-//             certain shapes are shared across letters. A typeface represents
-//             shared patterns across a collection of letters.
-//           </p>
-//           <h4>Measurement from the baseline</h4>
-//           <p>
-//             A typeface is a collection of letters. While each letter is unique,
-//             certain shapes are shared across letters. A typeface represents
-//             shared patterns across a collection of letters.
-//           </p>
-//           <h3>Type classification</h3>
-//           <h4>Serif</h4>
-//           <p>
-//             A serif is a small shape or projection that appears at the beginning
-//             or end of a stroke on a letter. Typefaces with serifs are called
-//             serif typefaces. Serif fonts are classified as one of the following:
-//           </p>
-//           <h4>Old-Style serifs</h4>
-//           <ul>
-//             <li>Low contrast between thick and thin strokes</li>
-//             <li>Diagonal stress in the strokes</li>
-//             <li>Slanted serifs on lower-case ascenders</li>
-//           </ul>
-//           <img
-//             src="https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-2.png"
-//             alt=""
-//           />
-//           <ol>
-//             <li>Low contrast between thick and thin strokes</li>
-//             <li>Diagonal stress in the strokes</li>
-//             <li>Slanted serifs on lower-case ascenders</li>
-//           </ol>
-//           <h3>Laying the best for successful prototyping</h3>
-//           <p>
-//             A serif is a small shape or projection that appears at the
-//             beginning:
-//           </p>
+import React from "react";
 
-//           <section className="mt-8">
-//             <div className="flex justify-between items-center mb-6">
-//               <h2 className="text-lg lg:text-2xl font-bold text-white">
-//                 Discussion (20)
-//               </h2>
-//             </div>
-//             <form className="mb-6">
-//               <div className="py-2 px-4 mb-4 bg-transparent rounded-lg rounded-t-lg border border-gray-200 appearance-none">
-//                 <label for="comment" class="sr-only">
-//                   Your comment
-//                 </label>
-//                 <textarea
-//                   id="comment"
-//                   rows="6"
-//                   class="px-0 w-full text-sm  border-0 focus:ring-0 text-white bg-transparent"
-//                   placeholder="Write a comment..."
-//                   required
-//                 ></textarea>
-//               </div>
-//               <button
-//                 type="submit"
-//                 className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800"
-//               >
-//                 Post comment
-//               </button>
-//             </form>
-//           </section>
-//         </article>
-//       </div>
-//     </main>
-//   );
-// };
+const page = () => {
+  return (
+    <section className="bg-gray-800 h-screen">
+      <div className="py-64 px-4 mx-auto max-w-screen-md text-center lg:py-64 lg:px-12">
+        <svg
+          className="mx-auto mb-4 w-10 h-10 text-gray-400"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+        >
+          <path
+            fill="currentColor"
+            d="M331.8 224.1c28.29 0 54.88 10.99 74.86 30.97l19.59 19.59c40.01-17.74 71.25-53.3 81.62-96.65c5.725-23.92 5.34-47.08 .2148-68.4c-2.613-10.88-16.43-14.51-24.34-6.604l-68.9 68.9h-75.6V97.2l68.9-68.9c7.912-7.912 4.275-21.73-6.604-24.34c-21.32-5.125-44.48-5.51-68.4 .2148c-55.3 13.23-98.39 60.22-107.2 116.4C224.5 128.9 224.2 137 224.3 145l82.78 82.86C315.2 225.1 323.5 224.1 331.8 224.1zM384 278.6c-23.16-23.16-57.57-27.57-85.39-13.9L191.1 158L191.1 95.99l-127.1-95.99L0 63.1l96 127.1l62.04 .0077l106.7 106.6c-13.67 27.82-9.251 62.23 13.91 85.39l117 117.1c14.62 14.5 38.21 14.5 52.71-.0016l52.75-52.75c14.5-14.5 14.5-38.08-.0016-52.71L384 278.6zM227.9 307L168.7 247.9l-148.9 148.9c-26.37 26.37-26.37 69.08 0 95.45C32.96 505.4 50.21 512 67.5 512s34.54-6.592 47.72-19.78l119.1-119.1C225.5 352.3 222.6 329.4 227.9 307zM64 472c-13.25 0-24-10.75-24-24c0-13.26 10.75-24 24-24S88 434.7 88 448C88 461.3 77.25 472 64 472z"
+          />
+        </svg>
+        <h1 className="mb-4 text-4xl font-bold tracking-tight leading-none text-white lg:mb-6 md:text-5xl xl:text-6xl dark:text-white">
+          Under Maintenance
+        </h1>
+        <p className="font-light md:text-lg xl:text-xl text-gray-400">
+          Our Enterprise administrators are performing scheduled maintenance.
+        </p>
+      </div>
+    </section>
+  );
+};
 
-// export default page;
+export default page;
