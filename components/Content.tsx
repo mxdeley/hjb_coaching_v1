@@ -5,7 +5,7 @@ const Content = () => {
     <section className="bg-gray-800">
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-6 lg:px-6">
         <div className="font-light text-gray-400 sm:text-lg ">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-amber-400">
             A smart bet if you value quality, honesty and hard-work:
           </h2>
           <p className="mb-4">

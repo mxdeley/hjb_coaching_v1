@@ -71,20 +71,20 @@ export default function Example() {
       </div>
       <section className="bg-gray-900 mt-20 ">
         <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-          <dl className="grid max-w-screen-md gap-8 mx-auto text-white sm:grid-cols-3 ">
+          <div className="grid max-w-screen-md gap-8 mx-auto text-amber-400 sm:grid-cols-3 ">
             <div className="flex flex-col items-center justify-center">
               <dt className="mb-2 text-3xl md:text-4xl font-extrabold">50</dt>
-              <dd className="font-light text-gray-400 ">lbs lost</dd>
+              <dd className="font-light text-white ">lbs lost</dd>
             </div>
             <div className="flex flex-col items-center justify-center">
               <dt className="mb-2 text-3xl md:text-4xl font-extrabold">250+</dt>
-              <dd className="font-light text-gray-400 ">km ran</dd>
+              <dd className="font-light text-white ">km ran</dd>
             </div>
             <div className="flex flex-col items-center justify-center">
               <dt className="mb-2 text-3xl md:text-4xl font-extrabold">5</dt>
-              <dd className="font-light text-gray-400 ">Team Members</dd>
+              <dd className="font-light text-white ">Team Members</dd>
             </div>
-          </dl>
+          </div>
         </div>
       </section>
     </div>
