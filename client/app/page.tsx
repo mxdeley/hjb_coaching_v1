@@ -10,8 +10,8 @@ export default function Home() {
     <main className="bg-gray-800">
       <Hero />
       <WhatWeOffer />
-      <Content />
       <ContentTwo />
+      <Content />
       <Gallery />
       <Contact />
     </main>

@@ -35,18 +35,16 @@ export default function WhatWeOffer() {
                 </AlertDialogTrigger>
                 <AlertDialogContent>
                   <AlertDialogHeader>
-                    <AlertDialogTitle>
-                      Are you absolutely sure?
-                    </AlertDialogTitle>
+                    <AlertDialogTitle>Grow Muscle</AlertDialogTitle>
                     <AlertDialogDescription>
-                      This action cannot be undone. This will permanently delete
-                      your account and remove your data from our servers.
+                      Struggling to increase your muscle mass? A training plan
+                      tailored to your body mechanics is the perfect solution.
                     </AlertDialogDescription>
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/growmuscle">Test</a>
+                      <a href="/growmuscle">Lets go.</a>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
@@ -69,18 +67,17 @@ export default function WhatWeOffer() {
                 </AlertDialogTrigger>
                 <AlertDialogContent>
                   <AlertDialogHeader>
-                    <AlertDialogTitle>
-                      Are you absolutely sure?
-                    </AlertDialogTitle>
+                    <AlertDialogTitle>Build Endurance</AlertDialogTitle>
                     <AlertDialogDescription>
-                      This action cannot be undone. This will permanently delete
-                      your account and remove your data from our servers.
+                      Unlock your full fitness potential with training
+                      techniques specifically designed to increase your overall
+                      endurance level, in and out of the gym.
                     </AlertDialogDescription>
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/buildendurance">Test</a>
+                      <a href="/buildendurance">Lets go.</a>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
@@ -102,18 +99,17 @@ export default function WhatWeOffer() {
                 </AlertDialogTrigger>
                 <AlertDialogContent>
                   <AlertDialogHeader>
-                    <AlertDialogTitle>
-                      Are you absolutely sure?
-                    </AlertDialogTitle>
+                    <AlertDialogTitle>Lose Weight</AlertDialogTitle>
                     <AlertDialogDescription>
-                      This action cannot be undone. This will permanently delete
-                      your account and remove your data from our servers.
+                      Without effective and attainable training and meal plans,
+                      losing weight can seem like climbing a mountain. Let me
+                      help you shed that fat you hate and get beach body ready.
                     </AlertDialogDescription>
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/loseweight">Test</a>
+                      <a href="/loseweight">Lets go.</a>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
@@ -135,18 +131,19 @@ export default function WhatWeOffer() {
                 </AlertDialogTrigger>
                 <AlertDialogContent>
                   <AlertDialogHeader>
-                    <AlertDialogTitle>
-                      Are you absolutely sure?
-                    </AlertDialogTitle>
+                    <AlertDialogTitle>Eat Great</AlertDialogTitle>
                     <AlertDialogDescription>
-                      This action cannot be undone. This will permanently delete
-                      your account and remove your data from our servers.
+                      Food is fuel. You may currently underestimate the power
+                      food has on your training and even overall quality of
+                      life. Meal plans take the guess work out of it and let you
+                      focus on your training while indulging in a variety of
+                      tasty and healthy options.
                     </AlertDialogDescription>
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/eatgreat">Test</a>
+                      <a href="/eatgreat">Lets go</a>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>

@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Gallery = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-[100px]">
       <div>
         <img
           className="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+          src="/1.jpg"
           alt=""
           // width={100}
           // height={80}
@@ -15,7 +15,7 @@ const Gallery = () => {
       <div>
         <img
           className="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+          src="2.jpeg"
           alt=""
           // width={100}
           // height={80}
@@ -24,7 +24,7 @@ const Gallery = () => {
       <div>
         <img
           className="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+          src="3.jpeg"
           alt=""
           // width={100}
           // height={80}
@@ -33,7 +33,7 @@ const Gallery = () => {
       <div>
         <img
           className="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+          src="4.jpeg"
           alt=""
           // width={100}
           // height={80}
@@ -42,7 +42,7 @@ const Gallery = () => {
       <div>
         <img
           className="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+          src="5.jpeg"
           alt=""
           // width={100}
           // height={80}
@@ -51,7 +51,7 @@ const Gallery = () => {
       <div>
         <img
           className="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+          src="6.jpeg"
           alt=""
           // width={100}
           // height={80}
