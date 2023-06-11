@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-800 py-24 sm:py-32">
       <Image
-        src="/GymWeights.webp"
+        src="/heroA.jpeg"
         alt=""
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-25"
         width={1097}
