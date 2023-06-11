@@ -60,7 +60,7 @@ const Gallery = () => {
       <div>
         <img
           className="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
+          src="7.jpg"
           alt=""
           //   width={100}
           //   height={80}
@@ -69,7 +69,7 @@ const Gallery = () => {
       <div>
         <img
           className="h-auto max-w-full rounded-lg"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
+          src="9.jpg"
           alt=""
           // width={100}
           // height={80}
