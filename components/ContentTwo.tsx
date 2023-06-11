@@ -37,7 +37,7 @@ export default function Example() {
                 Consistency is key...
               </h2> */}
               <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                So, Why me?
+                So, why me?
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-400">
                 You should be able to trust your coach. And I understand this,

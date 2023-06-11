@@ -46,7 +46,7 @@ export default function Hero() {
           <p className="mt-6 text-md leading-8 text-white mb-20">
             A complete beginner or getting stage ready? Whatever your needs, I
             have you covered. Bespoke fitness and lifestyle coaching, which{" "}
-            <span className="uppercase font-bold">gurantees</span> you will
+            <span className="uppercase font-bold">guarantees</span> you will
             reach your goals.
           </p>
         </div>
