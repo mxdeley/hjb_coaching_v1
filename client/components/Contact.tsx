@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import { HiChevronDown } from "react-icons/hi";
+import { ContactForm } from "@/components/ContactForm";
 
 export default function Contact() {
   return (
@@ -157,6 +159,7 @@ export default function Contact() {
             </button>
           </div>
         </form>
+        <ContactForm />
       </div>
     </section>
   );
