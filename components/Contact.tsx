@@ -24,7 +24,7 @@ export default function Contact() {
         <div className="mx-auto max-w-2xl text-center">
           {" "}
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Thanks for joining! I will get back to you asap.
+            Thanks for joining! I will see you in the gym.
           </h2>
         </div>
       </div>
