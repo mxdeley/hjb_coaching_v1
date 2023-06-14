@@ -17,7 +17,13 @@ export default function WhatWeOffer() {
     <div className="bg-gray-800 py-8">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-xl font-semibold leading-8 text-white">
-          Start your fitness journey today.
+          A complete beginner or getting stage ready? Whatever your needs, I’ve
+          got you covered.
+        </h2>
+        <h2 className="text-center text-xl font-semibold leading-8 text-white">
+          Bespoke fitness and lifestyle coaching{" "}
+          <span className="uppercase text-amber-400">guarantees</span> you
+          reaching your goals.
         </h2>
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-3xl sm:grid-cols-2 sm:gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-4 ">
           <div className="border rounded-xl p-3">

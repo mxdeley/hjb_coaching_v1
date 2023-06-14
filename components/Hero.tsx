@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-800 py-24 sm:py-32">
+    <div className="relative isolate overflow-hidden bg-gray-800 py-24 sm:py-44">
       <Image
         src="/heroA.jpeg"
         alt=""
@@ -35,20 +35,26 @@ export default function Hero() {
         />
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-amber-400 sm:text-6xl">
+        <div className="mx-auto lg:mx-0 my-auto">
+          <h2 className="text-4xl font-bold tracking-tight text-amber-400 sm:text-6xl text-center">
             Unlock your potential.
           </h2>
-          <h3 className="mt-6 text-lg leading-8 text-white font-bold">
+          <h3 className="text-lg leading-8 text-white text-center font-bold">
             Lets smash your goals together.
           </h3>
+          <button
+            type="submit"
+            className="block rounded-md bg-amber-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600 w-[200px] mx-auto m-6"
+          >
+            Start your journey here!
+          </button>
 
-          <p className="mt-6 text-md leading-8 text-white mb-20">
+          {/* <p className="mt-6 text-md leading-8 text-white mb-20">
             A complete beginner or getting stage ready? Whatever your needs, I
             have you covered. Bespoke fitness and lifestyle coaching, which{" "}
             <span className="uppercase font-bold">guarantees</span> you will
             reach your goals.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
