@@ -2,8 +2,34 @@
 import Image from "next/image";
 import { HiChevronDown } from "react-icons/hi";
 import { ContactForm } from "@/components/ContactForm";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
+  const [state, handleSubmit] = useForm("mbjevnew");
+  if (state.succeeded) {
+    return (
+      <div className="flex justify-between max-w-6xl mx-auto bg-gray-800 p-5">
+        <div className="w-2/5 my-auto mx-auto bg-gray-800 relative h-full hidden lg:block">
+          <Image
+            src="/harrison1.png"
+            width={200}
+            height={160}
+            alt="Harrison"
+            sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw,
+                33vw"
+            style={{ height: "100%", width: "100%" }}
+          />
+        </div>{" "}
+        <div className="mx-auto max-w-2xl text-center">
+          {" "}
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            Thanks for joining! I will get back to you asap.
+          </h2>
+        </div>
+      </div>
+    );
+  }
   return (
     <section
       id="contact"
@@ -34,8 +60,7 @@ export default function Contact() {
 
         {/* Form */}
         <form
-          action="#"
-          method="POST"
+          onSubmit={handleSubmit}
           className="mx-auto mt-8 max-w-xl sm:mt-14"
         >
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
@@ -94,7 +119,7 @@ export default function Contact() {
               </div>
             </div>
             {/* Phone Number */}
-            <div className="sm:col-span-2">
+            {/* <div className="sm:col-span-2">
               <label
                 htmlFor="phone-number"
                 className="block text-sm font-semibold leading-6 text-white"
@@ -129,14 +154,14 @@ export default function Contact() {
                   className="block w-full rounded-md border border-gray-400 px-3.5 py-2 pl-20 text-white shadow-sm ring-1 ring-inset placeholder:text-gray-400 sm:text-sm sm:leading-6 bg-transparent"
                 />
               </div>
-            </div>
+            </div> */}
             {/* Message */}
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
                 className="block text-sm font-semibold leading-6 text-white"
               >
-                Message
+                What are your goals?
               </label>
               <div className="mt-2.5">
                 <textarea
@@ -144,7 +169,7 @@ export default function Contact() {
                   id="message"
                   rows={4}
                   className="block w-full rounded-md border border-gray-400 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset placeholder:text-gray-400  sm:text-sm sm:leading-6 bg-transparent"
-                  placeholder="What are your goals?"
+                  placeholder="I want to lose 10lbs in two weeks..."
                 />
               </div>
             </div>
@@ -159,7 +184,6 @@ export default function Contact() {
             </button>
           </div>
         </form>
-        <ContactForm />
       </div>
     </section>
   );
