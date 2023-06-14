@@ -9,22 +9,13 @@ const Content = () => {
             A smart bet if you value quality, honesty and hard-work:
           </h2>
           <p className="mb-4">
-            I know trusting a traditional gym-floor coach with your goals and
-            ambitions is difficult. HJB coaching is a modern alternative rooted
-            in cutting-edge science, offering a solution to old-school generic
+            Trusting a traditional gym-floor coach with your goals and ambitions
+            is difficult. HJB coaching is a modern alternative rooted in
+            cutting-edge science, offering a solution to old-school generic
             ‘copy & paste’ bodybuilder coaching. Your goals will be achieved
             through creative and complex layers of science-based coaching,
-            specifically designed to your needs and body. All of which is
-            efficiently showcased into one neat package, taking the guesswork
-            out of your training.
-          </p>
-          <p>
-            My extensive experience working with professional athletes from
-            Pro-boxers, footballers and bodybuilders has taught me a vast number
-            of lessons. These techniques and skills are embedded within your
-            coaching and really elevate your coaching to the highest quality.
-            This is what sets HJB coaching apart from traditional online coaches
-            that struggle to offer creative and adaptable plans for you.
+            specifically designed to your needs and body. All showcased into one
+            neat package, taking the guesswork out of your training.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4 mt-8">

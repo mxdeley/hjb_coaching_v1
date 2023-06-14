@@ -4,6 +4,7 @@ import Contact from "@/components/Contact";
 import ContentTwo from "@/components/ContentTwo";
 import Hero from "@/components/Hero";
 import Gallery from "@/components/Gallery";
+import ContentThree from "@/components/ContentThree";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <WhatWeOffer />
       <ContentTwo />
       <Content />
+      <ContentThree />
       <Gallery />
       <Contact />
     </main>
