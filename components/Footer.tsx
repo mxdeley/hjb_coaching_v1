@@ -99,7 +99,10 @@ const Footer = () => {
             <a href="/" className="hover:underline">
               HJB Coaching™
             </a>
-            . All Rights Reserved.
+            . All Rights Reserved.{" "}
+            <a href="/termsofservice" className="hover:underline">
+              Terms of Service
+            </a>
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a

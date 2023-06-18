@@ -7,14 +7,14 @@ const Content = () => {
         <div className="hidden sm:grid grid-cols-2 gap-4 mt-8">
           <Image
             className="w-full rounded-lg"
-            src="/harrison2.jpeg"
+            src="/harrison4.jpeg"
             alt="office content 1"
             width={500}
             height={500}
           />
           <Image
             className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="/harrison3.jpeg"
+            src="/harrison5.jpeg"
             alt="office content 2"
             width={500}
             height={500}
@@ -22,7 +22,7 @@ const Content = () => {
         </div>
         <div className="font-light text-gray-400 sm:text-lg ">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-amber-400">
-            More than experience in the gym...
+            More than gym experience...
           </h2>
           <p>
             My extensive experience working with professional athletes from

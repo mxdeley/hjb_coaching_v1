@@ -8,9 +8,12 @@ const Gallery = () => {
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div>
+          <img className="h-auto max-w-full rounded-lg" src="/1.png" alt="" />
+        </div>
+        <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="/1.jpg"
+            src="2.png"
             alt=""
             // width={100}
             // height={80}
@@ -19,7 +22,7 @@ const Gallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="2.jpeg"
+            src="3.png"
             alt=""
             // width={100}
             // height={80}
@@ -28,7 +31,7 @@ const Gallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="3.jpeg"
+            src="4.png"
             alt=""
             // width={100}
             // height={80}
@@ -37,7 +40,7 @@ const Gallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="4.jpeg"
+            src="10.png"
             alt=""
             // width={100}
             // height={80}
@@ -46,7 +49,7 @@ const Gallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="5.jpeg"
+            src="6.png"
             alt=""
             // width={100}
             // height={80}
@@ -55,16 +58,7 @@ const Gallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="6.jpeg"
-            alt=""
-            // width={100}
-            // height={80}
-          />
-        </div>
-        <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
-            src="7.jpg"
+            src="9.png"
             alt=""
             //   width={100}
             //   height={80}
@@ -73,39 +67,11 @@ const Gallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="9.jpg"
+            src="7.png"
             alt=""
             // width={100}
             // height={80}
           />
-        </div>
-        <div>
-          {/* <img
-        className="h-auto max-w-full rounded-lg"
-        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
-        alt=""
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg"
-        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg"
-        alt=""
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg"
-        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg"
-        alt=""
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg"
-        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg"
-        alt=""
-      /> */}
         </div>
       </div>
     </div>

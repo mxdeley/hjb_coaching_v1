@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-800 py-24 sm:py-44">
       <Image
-        src="/heroA.jpeg"
+        src="/heroC.jpeg"
         alt=""
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-25"
         width={1097}
@@ -42,12 +43,14 @@ export default function Hero() {
           <h3 className="text-lg leading-8 text-white text-center font-bold">
             Lets smash your goals together.
           </h3>
-          <button
-            type="submit"
-            className="block rounded-md bg-amber-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600 w-[200px] mx-auto m-6"
-          >
-            Start your journey here!
-          </button>
+          <Link href="/programquiz">
+            <button
+              type="submit"
+              className="block rounded-md bg-amber-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600 w-[200px] mx-auto m-6"
+            >
+              Start your journey here!
+            </button>
+          </Link>
 
           {/* <p className="mt-6 text-md leading-8 text-white mb-20">
             A complete beginner or getting stage ready? Whatever your needs, I

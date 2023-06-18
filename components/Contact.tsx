@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { HiChevronDown } from "react-icons/hi";
-import { ContactForm } from "@/components/ContactForm";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
@@ -21,11 +20,14 @@ export default function Contact() {
             style={{ height: "100%", width: "100%" }}
           />
         </div>{" "}
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="mx-auto max-w-2xl text-center my-auto">
           {" "}
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Thanks for joining! I will see you in the gym.
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mx-auto my-auto">
+            Thanks for joining!
           </h2>
+          <h3 className="text-xl tracking-tight text-white sm:text-2xl mx-auto my-auto">
+            I will see you in the gym.
+          </h3>
         </div>
       </div>
     );
