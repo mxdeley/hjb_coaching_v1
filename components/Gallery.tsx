@@ -11,7 +11,6 @@ const Gallery = () => {
           <Image
             className="h-auto max-w-full rounded-lg"
             width={400}
-            loading="lazy"
             height={80}
             src="/1.png"
             alt="progress pic"
@@ -22,7 +21,6 @@ const Gallery = () => {
             className="h-auto max-w-full rounded-lg"
             width={400}
             height={80}
-            loading="lazy"
             src="/2.png"
             alt="progress pic"
           />
@@ -32,7 +30,6 @@ const Gallery = () => {
             className="h-auto max-w-full rounded-lg"
             width={400}
             height={80}
-            loading="lazy"
             src="/3.png"
             alt=""
           />
@@ -42,7 +39,6 @@ const Gallery = () => {
             className="h-auto max-w-full rounded-lg"
             src="/4.png"
             alt=""
-            loading="lazy"
             width={400}
             height={80}
           />
@@ -51,7 +47,6 @@ const Gallery = () => {
           <Image
             className="h-auto max-w-full rounded-lg"
             src="/10.png"
-            loading="lazy"
             alt=""
             width={400}
             height={80}
@@ -61,7 +56,6 @@ const Gallery = () => {
           <Image
             className="h-auto max-w-full rounded-lg"
             src="/6.png"
-            loading="lazy"
             alt=""
             width={400}
             height={80}
@@ -71,7 +65,6 @@ const Gallery = () => {
           <Image
             className="h-auto max-w-full rounded-lg"
             src="/9.png"
-            loading="lazy"
             alt=""
             width={400}
             height={80}
@@ -81,7 +74,6 @@ const Gallery = () => {
           <Image
             className="h-auto max-w-full rounded-lg"
             src="/7.png"
-            loading="lazy"
             alt=""
             width={400}
             height={80}

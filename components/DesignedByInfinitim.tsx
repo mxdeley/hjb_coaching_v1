@@ -30,13 +30,7 @@ export default function Example() {
       </div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
         <p className="text-sm leading-6 text-white flex items-center text-center">
-          <Image
-            src="/infinitimLogo.png"
-            alt=""
-            width={32}
-            height={32}
-            loading="lazy"
-          />
+          <Image src="/infinitimLogo.png" alt="" width={32} height={32} />
           {/* <svg
             viewBox="0 0 2 2"
             className="mx-2 inline h-0.5 w-0.5 fill-current"

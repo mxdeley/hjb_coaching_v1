@@ -17,7 +17,6 @@ const Footer = () => {
                 src="/hjbHeader.svg"
                 className="mr-3 h-20"
                 alt="Company Logo"
-                loading="lazy"
                 width={100}
                 height={80}
               />
