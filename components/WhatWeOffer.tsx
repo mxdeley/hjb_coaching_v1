@@ -50,7 +50,7 @@ export default function WhatWeOffer() {
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/growmuscle">Lets go.</a>
+                      <Link href="/growmuscle">Lets go.</Link>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
@@ -83,7 +83,7 @@ export default function WhatWeOffer() {
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/buildendurance">Lets go.</a>
+                      <Link href="/buildendurance">Lets go.</Link>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
@@ -115,7 +115,7 @@ export default function WhatWeOffer() {
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/loseweight">Lets go.</a>
+                      <Link href="/loseweight">Lets go.</Link>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>
@@ -149,7 +149,7 @@ export default function WhatWeOffer() {
                   <AlertDialogFooter>
                     <AlertDialogCancel>Cancel</AlertDialogCancel>
                     <AlertDialogAction>
-                      <a href="/eatgreat">Lets go</a>
+                      <Link href="/eatgreat">Lets go</Link>
                     </AlertDialogAction>
                   </AlertDialogFooter>
                 </AlertDialogContent>

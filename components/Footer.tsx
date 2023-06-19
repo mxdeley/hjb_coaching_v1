@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
 import { BsTiktok } from "react-icons/bs";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a
+            <Link
               href="https://flowbite.com"
               className="flex items-center justify-center md:justify-start"
             >
@@ -19,7 +20,7 @@ const Footer = () => {
                 width={100}
                 height={80}
               />
-            </a>
+            </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6  md:grid-cols-3 lg:grid-cols-4">
             <div>
@@ -28,14 +29,14 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="/growmuscle" className="hover:underline text-sm">
+                  <Link href="/growmuscle" className="hover:underline text-sm">
                     Training Programs
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/growmuscle" className="hover:underline text-sm">
+                  <Link href="/growmuscle" className="hover:underline text-sm">
                     Workout Tracker
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -45,14 +46,20 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="/buildendurance" className="hover:underline text-sm">
+                  <Link
+                    href="/buildendurance"
+                    className="hover:underline text-sm"
+                  >
                     Cardio Exercises
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/buildendurance" className="hover:underline text-sm">
+                  <Link
+                    href="/buildendurance"
+                    className="hover:underline text-sm"
+                  >
                     Hydration
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -62,14 +69,14 @@ const Footer = () => {
               </h2>
               <ul className=" text-gray-400">
                 <li className="mb-4">
-                  <a href="/loseweight" className="hover:underline text-sm">
+                  <Link href="/loseweight" className="hover:underline text-sm">
                     Diet Programs
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/loseweight" className="hover:underline text-sm">
+                  <Link href="/loseweight" className="hover:underline text-sm">
                     Calorie Tracker
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -79,14 +86,14 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-400">
                 <li className="mb-4">
-                  <a href="/eatgreat" className="hover:underline text-sm ">
+                  <Link href="/eatgreat" className="hover:underline text-sm ">
                     Recipes
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/eatgreat" className="hover:underline text-sm">
+                  <Link href="/eatgreat" className="hover:underline text-sm">
                     Nutrition
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -96,28 +103,28 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center ">
             © 2023{" "}
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
               HJB Coaching™
-            </a>
+            </Link>
             . All Rights Reserved.{" "}
-            <a href="/termsofservice" className="hover:underline">
+            <Link href="/termsofservice" className="hover:underline">
               Terms of Service
-            </a>
+            </Link>
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <a
+            <Link
               href="https://www.instagram.com/hjb_fit/"
               className="text-gray-500 hover:text-white"
             >
               <FaInstagram size={22} />
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="https://www.tiktok.com/@harrison_bickford?lang=en"
               className="text-gray-500 hover:text-white "
             >
               <BsTiktok size={22} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

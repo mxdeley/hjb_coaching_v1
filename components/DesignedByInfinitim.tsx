@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 export default function Example() {
   return (
     <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-950 px-6 py-2.5 sm:px-3.5 sm:before:flex-1 border-t border-white">
@@ -38,12 +40,12 @@ export default function Example() {
           </svg> */}
           <h2> Designed and Developed by Infinitm.</h2>
         </p>
-        <a
+        <Link
           href="https://infinitim.io"
           className="flex-none rounded-full bg-gray-800 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
           Check us out <span aria-hidden="true">&rarr;</span>
-        </a>
+        </Link>
       </div>
       <div className="flex flex-1 justify-end"></div>
     </div>
