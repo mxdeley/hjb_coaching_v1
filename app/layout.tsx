@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Script
-        id="hotjar"
+        id="Google Tag Manager"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
