@@ -8,69 +8,75 @@ const Gallery = () => {
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div>
-          <img className="h-auto max-w-full rounded-lg" src="/1.png" alt="" />
-        </div>
-        <div>
-          <img
+          <Image
             className="h-auto max-w-full rounded-lg"
-            src="2.png"
-            alt=""
-            // width={100}
-            // height={80}
+            width={400}
+            height={80}
+            src="/1.png"
+            alt="progress pic"
           />
         </div>
         <div>
-          <img
+          <Image
             className="h-auto max-w-full rounded-lg"
-            src="3.png"
-            alt=""
-            // width={100}
-            // height={80}
+            width={400}
+            height={80}
+            src="/2.png"
+            alt="progress pic"
           />
         </div>
         <div>
-          <img
+          <Image
             className="h-auto max-w-full rounded-lg"
-            src="4.png"
+            width={400}
+            height={80}
+            src="/3.png"
             alt=""
-            // width={100}
-            // height={80}
           />
         </div>
         <div>
-          <img
+          <Image
             className="h-auto max-w-full rounded-lg"
-            src="10.png"
+            src="/4.png"
             alt=""
-            // width={100}
-            // height={80}
+            width={400}
+            height={80}
           />
         </div>
         <div>
-          <img
+          <Image
             className="h-auto max-w-full rounded-lg"
-            src="6.png"
+            src="/10.png"
             alt=""
-            // width={100}
-            // height={80}
+            width={400}
+            height={80}
           />
         </div>
         <div>
-          <img
+          <Image
             className="h-auto max-w-full rounded-lg"
-            src="9.png"
+            src="/6.png"
             alt=""
-            //   width={100}
-            //   height={80}
+            width={400}
+            height={80}
           />
         </div>
         <div>
-          <img
+          <Image
             className="h-auto max-w-full rounded-lg"
-            src="7.png"
+            src="/9.png"
             alt=""
-            // width={100}
-            // height={80}
+            width={400}
+            height={80}
+          />
+        </div>
+        <div>
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src="/7.png"
+            alt=""
+            width={400}
+            height={80}
           />
         </div>
       </div>
