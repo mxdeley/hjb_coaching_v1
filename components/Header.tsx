@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Fragment, useState } from "react";
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
@@ -60,7 +61,7 @@ export default function Example() {
       >
         {/* Logo */}
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <Image
               src="/hjbHeader.svg"
               className="mr-3 "
@@ -68,7 +69,7 @@ export default function Example() {
               width={100}
               height={80}
             />
-          </a>
+          </Link>
         </div>
         {/* Open Mobile Menu */}
         <div className="flex lg:hidden">
@@ -115,13 +116,13 @@ export default function Example() {
                           />
                         </div>
                         <div className="flex-auto">
-                          <a
+                          <Link
                             href={item.href}
                             className="block font-semibold text-gray-800"
                           >
                             {item.name}
                             <span className="absolute inset-0" />
-                          </a>
+                          </Link>
                           <p className="mt-1 text-gray-600">
                             {item.description}
                           </p>
@@ -147,39 +148,39 @@ export default function Example() {
                 </Popover.Panel>
               </Transition>
             </Popover>
-            <a
+            <Link
               href="/mystory"
               className="text-sm font-semibold leading-6 text-white"
             >
               My Story
-            </a>
-            <a
+            </Link>
+            <Link
               href="/successstories"
               className="text-sm font-semibold leading-6 text-white"
             >
               Success Stories
-            </a>
-            <a
+            </Link>
+            <Link
               href="/blog"
               className="text-sm font-semibold leading-6 text-white mr-6"
             >
               Blog
-            </a>
+            </Link>
           </Popover.Group>
           <div className="lg:flex hidden">
-            <a
+            <Link
               href="https://www.instagram.com/hjb_fit/"
               className="text-white px-6"
             >
               <FaInstagram size={22} />
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="https://www.tiktok.com/@harrison_bickford?lang=en"
               className="text-white "
             >
               <BsTiktok size={22} />
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
@@ -192,7 +193,7 @@ export default function Example() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="#" className="-m-1.5 p-1.5">
               <Image
                 className="h-8 w-auto"
                 src="/hjbHeader.svg"
@@ -200,7 +201,7 @@ export default function Example() {
                 width={100}
                 height={100}
               />
-            </a>
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-600"
@@ -241,38 +242,38 @@ export default function Example() {
                     </>
                   )}
                 </Disclosure>
-                <a
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-800 hover:bg-gray-50"
                 >
                   My Story
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-800 hover:bg-gray-50"
                 >
                   Success Stories
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-800 hover:bg-gray-50"
                 >
                   Blog
-                </a>
+                </Link>
               </div>
               <div className="py-6 flex">
-                <a
+                <Link
                   href="https://www.instagram.com/hjb_fit/"
                   className="text-gray-800"
                 >
                   <FaInstagram size={22} />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="https://www.tiktok.com/@harrison_bickford?lang=en"
                   className="text-gray-800 px-6"
                 >
                   <BsTiktok size={22} />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
