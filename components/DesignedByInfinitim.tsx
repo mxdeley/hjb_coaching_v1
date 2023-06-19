@@ -1,5 +1,4 @@
-import { XMarkIcon } from "@heroicons/react/20/solid";
-
+import Image from "next/image";
 export default function Example() {
   return (
     <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-950 px-6 py-2.5 sm:px-3.5 sm:before:flex-1 border-t border-white">
@@ -29,7 +28,7 @@ export default function Example() {
       </div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
         <p className="text-sm leading-6 text-white flex items-center text-center">
-          <img src="/infinitimLogo.png" alt="" className="h-8" />
+          <Image src="/infinitimLogo.png" alt="" width={32} height={32} />
           {/* <svg
             viewBox="0 0 2 2"
             className="mx-2 inline h-0.5 w-0.5 fill-current"
