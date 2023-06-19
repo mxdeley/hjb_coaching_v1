@@ -34,6 +34,7 @@ export default function WhatWeOffer() {
                     className="col-span-2 max-h-16 w-full object-contain lg:col-span-1 "
                     src="/muscle.svg"
                     alt="Reform"
+                    loading="lazy"
                     width={158}
                     height={48}
                   />
@@ -66,6 +67,7 @@ export default function WhatWeOffer() {
                     className="col-span-2 max-h-16 w-full object-contain lg:col-span-1 "
                     src="/endurance.svg"
                     alt="Reform"
+                    loading="lazy"
                     width={158}
                     height={48}
                   />
@@ -97,6 +99,7 @@ export default function WhatWeOffer() {
                   <Image
                     className="col-span-2 max-h-16 w-full object-contain lg:col-span-1 "
                     src="/loseWeight.svg"
+                    loading="lazy"
                     alt="Reform"
                     width={158}
                     height={48}
@@ -130,6 +133,7 @@ export default function WhatWeOffer() {
                     className="col-span-2 max-h-16 w-full object-contain lg:col-span-1 "
                     src="/eatGreat.svg"
                     alt="Reform"
+                    loading="lazy"
                     width={158}
                     height={48}
                   />

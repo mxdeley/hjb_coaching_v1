@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="hidden md:block relative isolate overflow-hidden bg-gray-800 py-24 sm:py-44">
         <Image
           src="/heroC.jpeg"
-          loading="eager"
+          loading="lazy"
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-40"
           width={1097}
@@ -67,7 +67,7 @@ export default function Hero() {
       <div className="md:hidden relative isolate overflow-hidden bg-gray-800 py-24 sm:py-44">
         <Image
           src="/heroD.jpeg"
-          loading="eager"
+          loading="lazy"
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-40"
           width={1097}

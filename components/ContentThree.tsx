@@ -8,6 +8,7 @@ const Content = () => {
           <Image
             className="w-full rounded-lg"
             src="/harrison4.jpeg"
+            loading="lazy"
             alt="office content 1"
             width={500}
             height={500}
@@ -15,6 +16,7 @@ const Content = () => {
           <Image
             className="mt-4 w-full lg:mt-10 rounded-lg"
             src="/harrison5.jpeg"
+            loading="lazy"
             alt="office content 2"
             width={500}
             height={500}

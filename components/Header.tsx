@@ -66,6 +66,7 @@ export default function Example() {
               src="/hjbHeader.svg"
               className="mr-3 "
               alt="HJB Coaching Logo"
+              loading="lazy"
               width={100}
               height={80}
             />
@@ -197,6 +198,7 @@ export default function Example() {
               <Image
                 className="h-8 w-auto"
                 src="/hjbHeader.svg"
+                loading="lazy"
                 alt=""
                 width={100}
                 height={100}

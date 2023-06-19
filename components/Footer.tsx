@@ -10,13 +10,14 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link
-              href="https://flowbite.com"
+              href="/"
               className="flex items-center justify-center md:justify-start"
             >
               <Image
                 src="/hjbHeader.svg"
                 className="mr-3 h-20"
                 alt="Company Logo"
+                loading="lazy"
                 width={100}
                 height={80}
               />
