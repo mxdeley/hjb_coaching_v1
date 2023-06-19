@@ -9,7 +9,7 @@ export default function Hero() {
         <Image
           src="/heroC.jpeg"
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-25"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-40"
           width={1097}
           height={845}
         />
@@ -67,7 +67,7 @@ export default function Hero() {
         <Image
           src="/heroD.jpeg"
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-25"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-40"
           width={1097}
           height={845}
         />
