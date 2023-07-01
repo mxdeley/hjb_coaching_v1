@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { HiChevronDown } from "react-icons/hi";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
